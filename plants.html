@@ -17,6 +17,46 @@
 </head>
 
 <body>
+  <div>
+    <nav class="navbar navbar-expand-md bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Interesting Plants</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="advanced.html">Advanced</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+    </nav>
+  </div>
+  <br>
+    <div>
+      <form>
+        <div class="mb-3 form-group">
+          <label for="InputEmail" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Your Email is safe with us!!!</div>
+        </div>
+        <div class="mb-3 form-group">
+          <label for="InputPlant" class="form-label">Plant</label>
+          <input type="text" placeholder="Enter your plant" class="form-control" id="InputPlant">
+        </div>
+        <div class="mb-3 form-check">
+          <label class="form-check-label" for="InputCheck">Sign up for newsletter?</label>
+          <input type="checkbox" class="form-check-input" id="InputCheck">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
   <h1>Plants by Shanmuk Sai Palnati</h1>
   <div class="container">
     <div class="row">
@@ -126,6 +166,17 @@
     <div class="btn-group" role="group" aria-label="Third group">
       <button type="button" class="btn btn-danger">I</button>
     </div>
+  </div>
+  <br>
+  <h3>Dropdowns</h3>
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropdown menu
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="basic.html">Basic</a></li>
+      <li><a class="dropdown-item" href="advanced.html">Advanced</a></li>
+    </ul>
   </div>
 </body>
 
